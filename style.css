@@ -236,8 +236,9 @@ header h1{
     header h1{
         font-size: .65em;
         margin-top: 5px;
+        margin-right: 4px;
         color: #ffff;
-        text-align: center;
+        display: flex;
     }
 
     /*Main*/
