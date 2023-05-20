@@ -12,7 +12,7 @@ h1{
 /*
 telas:
 
-1- mobile (428 width)
+1- mobile (375 width)
 
 */
 
@@ -50,8 +50,6 @@ header h1{
     height: 619px;
     background-color: #F2BF85;
 }
-
-
 
 .container1 h1{
     color: #000;
@@ -238,29 +236,43 @@ header h1{
     header h1{
         font-size: .65em;
         margin-top: 5px;
+        color: #ffff;
+        text-align: center;
     }
 
     /*Main*/
 
     /*Section 1*/
 
+    .container1{
+        height: 500px;
+    }
+
     .container1 img{
         margin-top: 30px;
-        margin-left: 10px;
+        margin-left: 40px;
+        
     }
 
     .container1 h1{
         font-size: 1.6em;
-        padding-top: 45px;
+        padding-top: 30px;
     }
 
     .container1 h2{
-        font-size: .92em;
+        font-size: 1em;
         padding-top: 15px;
+        font-weight: 600;
     }
     
     .container1 h3{
+        font-weight: 400;
         font-size: .7em;
+        padding-top: 30px;
+    }
+
+    .container1 .botao-zap{
+        margin-top: 10px;
     }
 
     /*Botão-Zap*/
@@ -268,7 +280,7 @@ header h1{
     .botao-zap img{
         width: 300px;
         margin-left: 40px;
-        margin-top: 50px;
+        margin-top: 40px;
     }
 
     /*Section 2*/
@@ -278,8 +290,9 @@ header h1{
     }
 
     .container2 p{
-        text-align: justify;
-        font-size: 1.5em;
+        text-align: left;
+        font-size: 1.2em;
+        text-indent: 10px;
     }
 
     .container2 img{
@@ -312,6 +325,8 @@ header h1{
     .container5 div p{
         margin-top: 10px;
         padding: 30px;
+        font-size: 1.2em;
+        text-indent: 10px;
     }
 
     /*Section 6*/
@@ -331,6 +346,7 @@ header h1{
 
     .info p{
         font-size: .9em;
+        color: #000;
     }
 
     .container-form{
